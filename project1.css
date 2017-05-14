@@ -10,7 +10,6 @@ html, body{
 body{
 	margin: 0; 
 	color: white;
-	background: url("art.png");
 }
 
 #load-home{
@@ -27,7 +26,7 @@ body{
 
 
 #load-interests{
-	background: url("artist.png");
+	background: url("art_final.png");
 	background-repeat: no-repeat;
 	background-size: cover; 
 	margin: 0; 	
