@@ -81,7 +81,7 @@ h1{
 	border-radius: 100px;
 	margin-left: 20px;
 	margin-right: 20px; 
-	animation: fadeIn ease-in 2s;
+	animation: fadeInDown ease-in 2s;
 	animation-fill-mode: forwards;
 }
 
@@ -465,7 +465,6 @@ th a:hover{
 	100% {opacity: 1;}
 }
 
-
 @keyframes fadeIn{
 	from{
 		opacity: 0;
@@ -473,4 +472,16 @@ th a:hover{
 	to {
 		opacity: 1;
 	}
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
