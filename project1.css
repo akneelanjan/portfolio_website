@@ -30,7 +30,7 @@ body{
 	background-size: cover; 
 	margin: 0; 	
 	position: relative;
-	height: 100%;
+	height: 150%;
 	width: 100%;
 	opacity: 0;
 	animation: bgload 2s linear;
