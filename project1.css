@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Calligraffitti|Julius+Sans|Combo');
+
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-family: 'Combo';
+}
+
+body{
+	margin: 0; 
+	color: white;
+	background: url("wind.png");
+}
+
+#load-home{
+	background: url("9090-an-abstract-blue-background-pv.jpg");
+	background-size: cover; 
+	margin: 0; 	
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	animation: bgload 2s linear;
+	animation-fill-mode: forwards; 
+}
+
+
+#load-interests{
+	background: url("art_final.png");
+	background-size: cover; 
+	margin: 0; 	
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	animation: bgload 2s linear;
+	animation-fill-mode: forwards; 
+}
+
+#load-aboutme{
+	background: url("paint.png");
+	background-size: cover; 
+	margin: 0; 	
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	animation: bgload 2s linear;
+	animation-fill-mode: forwards; 
+}
+
+#load-skills{
+	background: url("desk.png"); 
+	background-size: cover; 
+	margin: 0; 	
+	position: absolute;
+	height: 150%;
+	width: 100%;
+	opacity: 0;
+	animation: bgload 2s linear;
+	animation-fill-mode: forwards; 
+}
+
+#load-contacts{
+	background: url("rosetta.png");
+	background-size: cover; 
+	margin: 0; 	
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	animation: bgload 2s linear;
+	animation-fill-mode: forwards; 
+}
+
+h1{
+	border: 4px solid white;
+	padding: 10px;
+	text-align: center;
+	background-image: none;
+	border-radius: 100px;
+	margin-left: 20px;
+	margin-right: 20px; 
+	animation: fadeIn ease-in 2s;
+	animation-fill-mode: forwards;
+}
+
+th a:link{
+	font-size: 2vw;
+	text-decoration: none;
+	
+	padding: 10px;
+	border-radius: 100px;
+	background-color: white;
+	opacity: 0;
+	color: darkblue;
+	animation: fadeIn ease-in 2s;
+	animation-fill-mode: forwards;
+	-webkit-transition: color 2s;
+	transition: color 2s;
+	-webkit-transition: background-color 2s;
+	transition: background-color 2s;
+
+}
+
+th a:visited{
+	font-size: 2vw;
+	text-decoration: none;
+	padding: 10px;
+	
+	border-radius: 100px;
+	background-color: white;
+	opacity: 0; 
+	color: darkblue;
+	animation: fadeIn ease-in 2s;
+	animation-fill-mode: forwards;
+	-webkit-transition: color 2s;
+	transition: color 2s;
+	-webkit-transition: background-color 2s;
+	transition: background-color 2s;
+	
+}
+
+th a:hover{
+	font-size: 2vw;
+	text-decoration: none;
+	background-color: mediumblue;
+	color: white;
+	
+}
+
+.menubar{
+	position: relative;
+	top: 0vh;
+	width: 100%;
+	display: inline-block;
+}
+
+
+
+.img{
+	margin-left: 10vw;
+	position: relative;
+	top: 5vh;
+}
+
+.image{
+	opacity: 0;
+	border: 5px solid black;
+	animation: fadeIn ease-in 2s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	position: absolute;
+	height: 50vh;
+	width: 20vw;
+	z-index: 5;
+}
+
+.intro1{
+	background-image: url("texture.png");
+	background-repeat: no-repeat;
+	background-size: cover;   
+	border: 2px solid black;
+	border-radius: 15px;  
+	position: relative;
+	top: 2vh;
+	margin-bottom: 20vh;
+	margin-right: 10vw;
+	margin-left: 45vw;
+	color: black;
+	font-size: 2.8vw;  
+	padding: 20px;
+	line-height: 150%;
+	opacity: 0;
+	animation: fadeIn ease-in 0.5s;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+}
+
+
+.intro2{
+	position: relative;
+	margin-top: -10vh;
+	margin-left: 8vw;
+	font-family: 'Calligraffitti';
+	font-size: 4.5vw;
+	color: darkblue;
+	padding: 20px;
+	animation: lightSpeedIn ease-in 5s;
+}
+
+
+.opjms{
+	background-image: url("OPJMS_final.png"); 
+	background-repeat: no-repeat;
+	background-size: cover;  
+	border: 2px solid black;
+	border-radius: 15px;  
+	position: relative;
+	top: 2vh;
+	margin-bottom: 10vh;
+	margin-right: 10vw;
+	margin-left: 10vw;
+	color: black;
+	font-size: 2.8vw;  
+	padding: 20px;
+	line-height: 150%;
+	opacity: 0;
+	animation: fadeIn ease-in 1s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+
+}
+
+.kgp{
+	background-image: url("kgp.png"); 
+	background-repeat: no-repeat;
+	background-size: cover; 	
+	border: 2px solid black;
+	border-radius: 15px;  
+	position: relative;
+	top: 2vh;
+	margin-bottom: 10vh;
+	margin-right: 10vw;
+	margin-left: 10vw;
+	color: black;
+	font-size: 2.8vw;  
+	padding: 20px;
+	line-height: 150%;
+	opacity: 0;
+	animation: fadeIn ease-in 1s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+}
+
+.music{
+	background-image: url("music_final.png"); 
+	background-repeat: no-repeat;
+	background-size: cover; 	
+	border: 2px solid black;
+	border-radius: 15px;  
+	position: relative;
+	top: 2vh;
+	margin-bottom: 20vh;
+	margin-right: 10vw;
+	margin-left: 10vw;
+	color: black;
+	font-size: 2.8vw;  
+	padding: 20px;
+	line-height: 150%;
+	opacity: 0;
+	animation: fadeIn ease-in 1s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+.liverpool{
+	background-image: url("liverpool.png"); 
+	background-repeat: no-repeat;
+	background-size: cover; 	
+	border: 2px solid black;
+	border-radius: 15px;  
+	position: relative;
+	top: 2vh;
+	margin-bottom: 20vh;
+	margin-right: 10vw;
+	margin-left: 10vw;
+	color: yellow;
+	font-size: 2.8vw;  
+	padding: 20px;
+	line-height: 150%;
+	opacity: 0;
+	animation: fadeIn ease-in 1s;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+}
+
+.coding{
+	background-image: url("codef.png");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	border: 2px solid black;
+	border-radius: 15px;  
+	position: relative;
+	top: 2vh;
+	margin-bottom: 9vh;
+	margin-right: 15vw;
+	margin-left: 15vw;
+	color: black;
+	font-size: 2.8vw;  
+	padding: 30px;
+	line-height: 150%;
+	opacity: 0;
+	animation: fadeIn ease-in 1s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+.quiz{
+	background-image: url("quiz.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	border-radius: 15px;  
+	position: relative;
+	top: 2vh;
+	margin-bottom: 13vh;
+	margin-right: 15vw;
+	margin-left: 15vw;
+	color: black;
+	font-size: 2.8vw;  
+	padding: 20px;
+	line-height: 150%;
+	opacity: 0;
+	animation: fadeIn ease-in 1s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+}
+
+.sports{
+	background-image: url("sports.png");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	border: 2px solid black;
+	border-radius: 15px;  
+	position: relative;
+	bottom: 4vh;
+	margin-right: 15vw;
+	margin-left: 15vw;
+	color: black;
+	font-size: 2.8vw;  
+	padding: 20px;
+	line-height: 150%;
+	opacity: 0;
+	animation: fadeIn ease-in 1s;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+}
+
+.contacts{
+	position: relative;
+	top: 2vh;
+	margin-right: 15vw;
+	margin-left: 15vw;
+	color: white;
+	font-family: 'Open Sans';
+	font-size: 2.8vw; 
+	text-align: center; 
+	padding: 20px;
+	line-height: 150%;
+	opacity: 0;
+	animation: fadeIn ease-in 1s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+
+.social{
+	position: relative;
+	top: 20vh;
+	width: 60%;
+	margin-left: 25vw;
+	opacity: 0;
+	animation: fadeIn ease-in 2s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
+
+
+#social1{
+	border: none;
+	
+}
+
+
+
+#social1 img:hover{
+	animation: swell 0.5s linear;
+	animation-fill-mode: forwards;
+}
+
+#social2{
+	border: none;
+
+
+}
+
+#social2 img:hover{
+
+	animation: swell 0.5s linear;
+	animation-fill-mode: forwards;
+}
+
+#social3{
+	border: none;
+
+
+
+}
+
+#social3 img:hover{
+	animation: swell 0.5s linear;
+	animation-fill-mode: forwards;
+}
+
+#social4{
+	border: none;
+
+}
+
+#social4 img:hover{
+	animation: swell 0.5s linear;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes lightSpeedIn {
+  from {
+    transform: translate3d(100%, 0, 0) skewX(-30deg);
+    opacity: 0;
+  }
+
+  60% {
+    transform: skewX(20deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: skewX(-5deg);
+    opacity: 1;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes swell{
+	0%{transform: scale(1);}
+	100%{transform: scale(1.5); }
+
+}
+
+
+@media only screen and (max-width: 768px){
+	.img{
+		width: 100%;
+		align-self: center;
+	}
+
+	.image{
+		align-self: center;
+	}
+
+	.intro1{
+		position: relative;
+		
+
+	}
+}
+
+@keyframes bgload{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
