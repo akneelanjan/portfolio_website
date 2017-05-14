@@ -94,7 +94,7 @@ th a:link{
 	background-color: white;
 	opacity: 0;
 	color: darkblue;
-	animation: fadeIn ease-in 2s;
+	animation: fadeInDown ease-in 2s;
 	animation-fill-mode: forwards;
 	-webkit-transition: color 2s;
 	transition: color 2s;
@@ -112,7 +112,7 @@ th a:visited{
 	background-color: white;
 	opacity: 0; 
 	color: darkblue;
-	animation: fadeIn ease-in 2s;
+	animation: fadeInDown ease-in 2s;
 	animation-fill-mode: forwards;
 	-webkit-transition: color 2s;
 	transition: color 2s;
