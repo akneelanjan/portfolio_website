@@ -482,7 +482,7 @@ p.sports:hover{
 	
 	.intro1{
 		position: relative;
-		margin-top: 0;
+		top: -10vh;
 	}
 }
 
