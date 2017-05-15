@@ -474,7 +474,8 @@ p.sports:hover{
 
 @media only screen and (max-width: 768px){
 	.img{
-		width: 100%;
+		height: 30%;
+		width: 30%;
 	}
 
 	.image{
