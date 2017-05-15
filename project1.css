@@ -476,6 +476,8 @@ p.sports:hover{
 
 	
 	.image{
+		position: relative;
+		margin: 0;
 		height: 10%;
 		width: 40%;
 	}
