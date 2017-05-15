@@ -173,7 +173,7 @@ th a:hover{
 	line-height: 150%;
 	opacity: 0;
 	animation: fadeIn ease-in 0.5s;
-	animation-delay: 4s;
+	animation-delay: 3s;
 	animation-fill-mode: forwards;
 }
 
@@ -212,6 +212,11 @@ th a:hover{
 
 }
 
+p.opjms:hover{
+	background-image: none;
+	background-color: none;
+}
+
 .kgp{
 	background-image: url("kgp.png"); 
 	background-repeat: no-repeat;
@@ -233,6 +238,11 @@ th a:hover{
 	animation-fill-mode: forwards;
 }
 
+p.kgp:hover{
+	background-image: none;
+	background-color: none;
+}
+
 .music{
 	background-image: url("music_final.png"); 
 	background-repeat: no-repeat;
@@ -252,6 +262,11 @@ th a:hover{
 	animation: fadeIn ease-in 1s;
 	animation-delay: 2s;
 	animation-fill-mode: forwards;
+}
+
+p.music:hover{
+	background-image: none;
+	background-color: rgba(28, 130, 144, 255);
 }
 
 .liverpool{
@@ -295,6 +310,12 @@ th a:hover{
 	animation-fill-mode: forwards;
 }
 
+p.coding:hover{
+	background-image: none;
+	background-color: rgba(242, 233, 218, 255);
+
+}
+
 .quiz{
 	background-image: url("quiz.png");
 	background-repeat: no-repeat;
@@ -316,6 +337,11 @@ th a:hover{
 	animation-fill-mode: forwards;
 }
 
+p.quiz:hover{
+	background-image: none;
+	background-color: rgba(242, 233, 218, 255);
+}
+
 .sports{
 	background-image: url("sports.png");
 	background-repeat: no-repeat;
@@ -333,6 +359,11 @@ th a:hover{
 	animation: fadeIn ease-in 1s;
 	animation-delay: 4s;
 	animation-fill-mode: forwards;
+}
+
+p.sports:hover{
+	background-image: none;
+	background-color: rgba(242, 233, 218, 255);
 }
 
 .contacts{
@@ -444,17 +475,15 @@ th a:hover{
 @media only screen and (max-width: 768px){
 	.img{
 		width: 100%;
-		align-self: center;
 	}
 
 	.image{
-		align-self: center;
+		width: 70%;
 	}
-
+	
 	.intro1{
 		position: relative;
-		
-
+		top: 2vh;	
 	}
 }
 
