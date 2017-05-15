@@ -474,15 +474,13 @@ p.sports:hover{
 
 @media only screen and (max-width: 768px){
 	.img{
-		height: 10%;
+		height: 40%;
 		width: 40%;
 	}	
 	
 	.image{
 		position: relative;
 		margin: 0;
-		height: 10%;
-		width: 40%;
 	}
 	
 	.intro1{
